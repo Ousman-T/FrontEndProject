@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <>
             {/* desktop */}
-            <nav className="bg-white md:px-14 p-4 max-w-screen-2x1 mx-auto text-primary fixed top-0 right-0 left-0">
+            <nav className="bg-white md:px-14 p-4 max-w-screen-2x1 mx-auto text-primary fixed top-0 right-0 left-0 border-b">
                 <div className="text-1g container mx-auto flex justify-between items-center font-medium">
                     <div className="flex space-x-14 items-center">
                         <a href="/" className="text-2x1 font-semibold flex items-center space-x-3 text-primary"><img src={logo} alt="Truck" className="w-10 inline-block items-center" /><span>XYZ</span></a>
